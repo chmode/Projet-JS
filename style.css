@@ -1,0 +1,62 @@
+*{
+    margin:0;
+    padding: 15px;
+    box-sizing: border-box;
+    border-radius: 10px;
+    outline: none;
+    border: none;
+    font-size: 20px;
+}
+.second-container{
+    background-color: rgb(255, 254, 254);
+    width: 700px;
+    border: solid 1px gray;
+}
+.second-container h3{
+    text-align: center;
+    font-size: 35px;
+    color: black;
+}
+.second-container label{
+    color: gray;
+    padding-bottom: 5px;
+    padding-top: 30px;
+}
+.second-container input{
+    width: 660px;
+    border: solid 1px gray;
+    color: gray;
+}
+.second-container form p{
+    width: 6400px;
+    color: red;
+    text-align: center;
+    display: none;
+}
+.second-container form{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+#sinup{
+    width: 660px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    background-color: green;
+    color: white;
+}
+.second-container form label,.second-container form label,.second-container form button{
+    display: block;
+}
+button:hover{
+    transform: scale(1.03);
+}
+/*.second-container form input:focus{
+    outline: solid 5px red;
+}
+.second-container form input:focus+p{
+    display: block;
+}
+.second-container form button:active{
+
+}*/

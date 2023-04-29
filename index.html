@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign UP</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    
+<div class="main-container">
+
+    <div class="second-container">
+
+        <h3>Sign UP</h3>
+        <form action="get">
+            <label for="useername">Username:</label>
+            <input id="username" type="text" placeholder="choose a username" oninput="uservalidation()">
+            <p id="U">le nom doit être entre 3 et 25 caractères</p>
+
+            <label for="email">Email:</label>
+            <input id="email" type="text" placeholder="Enter your email" oninput="mailvalidation()">
+            <p id="E">email pas valid il doit être correspondant example@example.ma</p>
+
+            <label for="password">Password:</label>
+            <input id="password" type="password" placeholder="Enter a strong password" oninput="passvalidation()" >
+            <p id="P">Le mot de passe doit contenir au moins 8 caractères, dont au moins 1 minuscule, 1 
+                majuscule, 1 chiffre et 1 caractère spécial (!@#$%^&*)</p>
+
+            <label for="passwordrepet">Confirm Password:</label>
+            <input id="passwordrepet" type="password" placeholder="Reenter your password" oninput="passrepvalidation()">
+            <p id="PR">Le mot de passe de confirmation doit être le même que le mot de passe</p>
+
+            
+        </form>
+        <button id="sinup">Sign UP</button>
+    </div>
+
+
+</div>
+
+
+
+
+
+    <script src="Signup-js.js"></script>
+</body>
+</html>

@@ -1,0 +1,161 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+    border-radius: 0;
+    outline: none;
+    border: none;
+}
+/***************************************************/
+
+.main{
+    position: relative;
+}
+
+.element{
+    background-color: rgb(192, 192, 219);
+    width: 100%;
+    border-bottom: 1px solid rgb(87, 87, 87);
+    height: 45px;
+}
+.element ul{
+    list-style: none;
+    display: flex;
+    padding: 10px 0px 10px 150px;
+    margin: 0;
+}
+.element ul li{
+    text-align: center;
+    width: 80px;
+}
+.element ul a{
+    color: rgb(87, 87, 87);
+    text-decoration: none;
+}
+.element ul li:hover{
+    transform: scale(1.5);
+}
+/********************************************************/
+
+.crs{
+    font-size: 35px;
+    text-align: center;
+}
+.crs span{
+    font-size: 35px;
+    text-align: center;
+    color: rgb(226, 151, 12);
+}
+
+.myclass{
+    position: relative;
+    left: calc(50% - 450px);
+}
+
+
+.allcrs{
+    display: flex;
+    justify-content: center;
+    margin-top: 15px;
+}
+.allcrs .allcrsbtn{
+    display: block;
+    width: 160px;
+    border-radius: 5px;
+    background-color: rgb(226, 151, 12);
+    padding: 10px 0px 10px 0px;
+    color: white;
+}
+.allcrs .allcrsbtn:hover{
+    transform: scale(1.3);
+}
+.align .countainer1 button:hover{
+    transform: scale(1.3);
+}
+.allcrs a{
+    text-decoration: none;
+}
+
+/************************************************/
+.footer{
+    position: relative;
+    bottom: -20px;
+    width: fit-content;
+    left: calc(50% - 130px);
+}
+/************************************************/
+.coureseMYCLASS p{
+    padding-top: 10px;
+    text-align: center;
+}
+.coureseMYCLASS span{
+    text-align: center;
+}
+.coureseMYCLASS img{
+    height: 116px;
+}
+.coureseMYCLASS{
+    height: 182px;
+}
+.coureseMYCLASS:hover{
+    transform: scale(1.1);
+}
+
+
+
+
+.align{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 70%;
+    height:500px;
+    background-color: #0000004f;
+    border-radius: 15px;
+}
+.countainer1 p:nth-child(1){
+    font-size: 30px;
+    font-weight: bold;
+    color: white;
+    text-align: center;
+    margin-bottom: 35px;
+}
+.countainer1 p:nth-child(2){
+    font-weight: bold;
+    color: white;
+    text-align: center;
+    margin-bottom: 35px;
+}
+.countainer1 a button{
+    display: block;
+    width: 160px;
+    border-radius: 5px;
+    background-color: rgb(226, 151, 12);
+    padding: 10px 0px 10px 0px;
+    color: white;
+}
+.countainer1 a{
+    display: flex;
+    justify-content: center;
+    margin-top: 15px;
+}
+.countainer1 a{
+    text-decoration: none;
+}
+
+.imgbackground img{
+    height: 700px;
+    width: 100%;
+}
+
+
+.backgroundstyle {
+    position: relative;
+}
+.backgroundstyle .align{
+    position: absolute;
+    z-index: 1;
+    top: 50px;
+    left: 25%;
+}
+
